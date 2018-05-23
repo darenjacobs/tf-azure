@@ -9,7 +9,7 @@ prompt> t_go.sh
 
 ## Infrastructure model:
 ```
-eastus is modelled after AWS us-east-1(N. Virginia)
+eastus is modeled after AWS us-east-1(N. Virginia)
 eastus2 is modeled after AWS us-east-2(Ohio)
 ```
 
@@ -24,7 +24,7 @@ Primary
 * AWS us-east-2: 172.20.0.0/16, 172.21.0.0/16, 172.22.0.0/16, 172.31.0.0/16
 * AZR   eastus2: 172.60.0.0/16, 172.61.0.0/16, 172.62.0.0/16, 172.71.0.0/16
 ```
-## <TERRAFORM_RANT>
+## <[TERRAFORM_RANT](https://medium.com/@hbarcelos/things-i-wish-i-knew-about-terraform-before-jumping-into-it-43ee92a9dd65)>
 ```
 Terraform should allow loops instead of having to write out the same block 4 times.
 Should be like this:
