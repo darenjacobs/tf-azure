@@ -14,7 +14,6 @@ eastus2 is modeled after AWS us-east-2(Ohio)
 ```
 
 ## Note
-This configuration is modular like Andrew's [Infrastructure as Code](http://bitbucket:7990/projects/DEVOPSDEV/repos/tf-infra-as-code/browse/aws-primary)
 
 ```
 Cidr blocks:
